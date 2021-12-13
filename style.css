@@ -171,3 +171,9 @@ button {
         text-align: left;
     }
 }
+
+@media (max-width: 380px) {
+    form>div {
+        text-align: center;
+    }
+}
