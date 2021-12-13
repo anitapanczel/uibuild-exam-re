@@ -43,3 +43,131 @@ select {
     -webkit-appearance: none !important;
     border-radius: 0;
 }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #467745;
+    background-color: #F7E4D4;
+}
+
+form {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+::-webkit-input-placeholder {
+    color: #467745;
+    opacity: 0.5;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #467745;
+    opacity: 0.5;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #467745;
+    opacity: 0.5;
+}
+
+:-ms-input-placeholder {
+    color: #467745;
+    opacity: 0.5;
+}
+
+h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+input {
+    font-size: 16px;
+    width: 100%;
+    max-width: 480px;
+    height: 64px;
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.megjegyzes {
+    font-size: 16px;
+    background-color: white;
+    width: 100%;
+    max-width: 480px;
+    height: 120px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.checkbox {
+    font-size: 16px;
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: underline;
+}
+
+.feltetelek {
+    font-size: 16px;
+    padding: 10px;
+}
+
+button {
+    font-family: 'EB Garamond', serif;
+    font-size: 21px;
+    background-color: #467745;
+    color: #e9dfd8;
+    border-radius: 40px;
+    letter-spacing: 0.2em;
+    width: 280px;
+    height: 80px;
+    font-weight: 500;
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+.button {
+    text-align: center;
+}
+
+@media (max-width: 520px) {
+    h1 {
+        font-size: 36px;
+        text-align: left;
+        text-indent: 10px;
+    }
+    input {
+        width: calc(100vw - 40px);
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .megjegyzes {
+        width: calc(100vw - 40px);
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .feltetelek {
+        margin-left: 20px;
+    }
+    div {
+        text-align: left;
+    }
+}
